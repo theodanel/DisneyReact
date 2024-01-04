@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 
 // eslint-disable-next-line
-export default class 
+export default class MovieDetail
  extends Component {
 
     state = {
@@ -24,13 +24,19 @@ export default class
 
 
   render() {
+   
     return (
-      <div>
-        <h1>Affichage du détail du film {this.props.match.params.id}</h1>
-        <ul>
-            <li>Nom : {this.state.movie.title}</li>
+      <div class="movieDetail">
+
+        <div className="imageDetail">
+        <img className="imageSize" src={this.state.movie.poster} alt="" />
+        </div>
+        <div className="movieResume">
+            <div class="movieTitle" >{this.state.movie.title}</div>
+            <div>Durée : {this.state.movie.duration} minutes</div>
            
-        </ul>
+           
+        </div>
       </div>
     )
   }

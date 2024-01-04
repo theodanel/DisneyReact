@@ -1,9 +1,8 @@
 
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { Button } from 'antd'
 
-const Movie = ({id, poster, title, action}) => {
+const Movie = ({id, poster, title}) => {
     return ( 
         
         <div>
@@ -16,8 +15,6 @@ const Movie = ({id, poster, title, action}) => {
                 <Link to ={`/movie/${id}`}>
                     <img class="posterImg" src={poster} alt="" />
                 </Link> 
-                
-                    <Button>Détail du Film</Button>
                 
                 </div>
         </div>

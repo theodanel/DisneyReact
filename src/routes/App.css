@@ -34,10 +34,73 @@ body {
 
 .posterList {
   display: flex;
+  width: 80%;
+  justify-content: space-around;
 }
 
 .container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.imageSize {
+  width: 100%;
+  height: 100%;
+}
 
+.imageDetail {
+ width: 30%;
+ height: 50vh;
+}
+
+.movieResume {
+  width: 70%;
+  height: 50vh;
+ }
+
+.movieDetail {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+ }
+
+ .movieTitle {
+  font-size: 3vh;
+ }
+
+ .studioList {
+
+  height: 10vh;
+   width: 20vh;
+ }
+
+ .logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+
+ }
+
+ .logoSize {
+  width: 15vh;
+ }
+
+ .containerStudio {
+  width: 100%;
+ }
+
+ .card {
+  border: 2px solid rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
+  height: 12vh;
+  width: 10%;
+ }

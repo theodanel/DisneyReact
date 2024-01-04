@@ -13,9 +13,10 @@ const Movie = ({id, poster, title, action}) => {
 
 
                 <div>
+                <Link to ={`/movie/${id}`}>
                     <img class="posterImg" src={poster} alt="" />
-                    
-                <Link to ={`/movie/${id}`}></Link>
+                </Link> 
+                
                     <Button>Détail du Film</Button>
                 
                 </div>

@@ -28,7 +28,7 @@ export default class
       <div>
         <h1>Affichage du détail du film {this.props.match.params.id}</h1>
         <ul>
-            <li>Nom : {this.state.member.title}</li>
+            <li>Nom : {this.state.movie.title}</li>
            
         </ul>
       </div>

@@ -1,9 +1,9 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom/cjs/react-router-dom.min'
+import { BrowserRouter, Switch, Route } from 'react-router-dom/cjs/react-router-dom.js'
 import App from "./routes/App"
-import NotFound from './components/NotFound'
-import Movie from './components/Movie'
-import MovieDetail from './routes/MovieDetail'
+
+
+import MovieDetail from './routes/MovieDetail.js'
 
 
 const Root = () => {
